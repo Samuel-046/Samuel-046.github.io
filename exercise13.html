@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 13 - CSS Transitions</title>
+    <style>
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 20px;
+            padding: 5px;
+            font-size: 20px;
+            font-family: "Times New Roman", serif;
+            
+
+            transition: all 0.5s ease;
+        }
+
+
+        .square1:hover {
+            width: 400px;
+        }
+
+
+        .square2:hover {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="square square1">1</div>
+    <div class="square square2">2</div>
+
+</body>
+</html>
